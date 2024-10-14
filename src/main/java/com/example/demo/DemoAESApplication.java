@@ -1,31 +1,20 @@
 package com.example.demo;
 
-import com.example.demo.dto.CreditCardBalance;
-import com.example.demo.dto.CreditCardDetailDto;
-import com.example.demo.test.CrackerWorker;
-import java.math.BigDecimal;
-import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
 import java.security.*;
-import java.text.DecimalFormat;
-import java.text.DecimalFormatSymbols;
 import java.text.SimpleDateFormat;
 import java.util.Base64;
 import java.util.Date;
-import java.util.Random;
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
-import javax.crypto.Mac;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @SpringBootApplication
 @Slf4j

@@ -10,7 +10,7 @@ class ThreadName extends Thread {
     }
 }
 
-public class ThreadNameExample extends Thread {
+public class ThreadNameExample {
 
     public static void main (String args[]) {
         // creating two threads and settting their name

@@ -1,8 +1,8 @@
 package com.example.demo.generictype.controller;
 
+import jakarta.websocket.server.PathParam;
 import org.springframework.web.bind.annotation.*;
 
-import javax.websocket.server.PathParam;
 
 @RestController
 public class Controller {
